@@ -12,15 +12,18 @@
 
 <h3>Home Page</h3>
 
-l
+![index_page](https://github.com/Dinesh294/ResumeGeneratorDjango/assets/84972612/fd6dced3-c284-440b-a830-d333f021c20d)
+
 
 <h3>Download Resume</h3>
 
-l
+![resume_download_page](https://github.com/Dinesh294/ResumeGeneratorDjango/assets/84972612/6f4b9c2c-f4c7-4f95-aeb8-dc06ef3c57fd)
+
 
 <h3>Resume</h3>
 
-l
+![generated_resume](https://github.com/Dinesh294/ResumeGeneratorDjango/assets/84972612/c163edfc-d180-42a4-96f1-ee10a3f56597)
+
 
 
 <h2>Steps:</h2>
@@ -32,7 +35,7 @@ l
         &emsp; python manage.py migrate </li>
     <li>to run the django server <br>
         &emsp; python manage.py runserver </li>
-    <li>access ecommerce website in  http://127.0.0.1:8000/index </li>
+    <li>access resume generator website in  http://127.0.0.1:8000/index </li>
     </ul>
 
 
