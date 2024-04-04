@@ -44,7 +44,7 @@ def resume(request,id):
     pdf = pdfkit.from_string(html,False,options=options,configuration=config)
     response = HttpResponse(pdf,content_type='application/pdf')
     response['Content-Disposition'] = 'attachment'
-    filename = "resume.pdf"
+    # response['filename'] = f"resume_{profile.name}.pdf"
     return response 
     # return render(request,'resume.html',{'profile':profile})
 
