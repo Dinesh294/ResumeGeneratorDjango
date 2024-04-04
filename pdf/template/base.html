@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-light" id="navid">
+                    <a class="navbar-brand btn active" href="/index"><b>Resume Generator </b></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/index">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link" href="/list_user">Download Resume</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/list_user">Users</a>   
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+       
+    </div>
+    
+    {%block new%}
+    {%endblock%}
+
+</body>
+</html>

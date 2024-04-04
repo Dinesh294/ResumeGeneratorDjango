@@ -1,0 +1,61 @@
+{%extends 'base.html'%}
+{%block new%}
+
+    <div class="container">
+        <div class="row m-4">
+            <div class="col-md-11">
+                <h3 class="font-weight-bold">Provide your details and download your resume as PDF file</h3>
+                <br>
+                <form method="POST">
+                    {% csrf_token %}
+                    <div class="form-group">
+                      <label for="">Name</label>
+                      <input type="text" class="form-control" id="name" name="name" placeholder="John">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="John@mail">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="">Phone</label>
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="your phone number">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="">Summary</label>
+                        <textarea type="text" class="form-control" id="summary" name="summary" placeholder="about you"> </textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="">School</label>
+                        <input type="text" class="form-control" id="school" name="school" placeholder="school">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Degree</label>
+                        <input type="text" class="form-control" id="degree" name="degree" placeholder="B.E">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="">University</label>
+                        <input type="text" class="form-control" id="university" name="university" placeholder="school">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="">Past Work Experience</label>
+                        <textarea type="text" class="form-control" id="past_exp" name="past_exp" placeholder="all work experience with details"></textarea>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="">Skills</label>
+                        <textarea type="text" class="form-control" id="skill" name="skill" placeholder="Python,Java,Docker...."></textarea> 
+                    </div>
+        
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{%endblock%}

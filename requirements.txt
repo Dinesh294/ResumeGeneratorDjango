@@ -1,0 +1,4 @@
+Django == 5.0.3
+pdfkit == 1.0.0
+
+#wkhtmltopdf
